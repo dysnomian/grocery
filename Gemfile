@@ -12,10 +12,14 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'active_model_serializers'
 
+gem 'devise'
+
 group :development, :test do
   gem 'byebug'
   gem 'pry-byebug'
-  gem 'web-console', '~> 2.0'
+  gem 'rubocop', require: false
+  gem 'rspec-rails'
   gem 'spring'
+  gem 'web-console', '~> 2.0'
 end
 
